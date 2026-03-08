@@ -43,5 +43,4 @@ router.get("/courses/:id/enrollments",async(req,res)=>{
     }
     res.json(data);
 });
-
 export default router;
